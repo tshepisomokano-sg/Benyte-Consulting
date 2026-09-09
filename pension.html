@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pension Fund Advisory | Benyte Consulting</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav class="bar">
+      <a class="brand" href="index.html">
+        <div class="mark">B</div>
+        <div class="name"><b>Benyte</b><span>Consulting</span></div>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="pension.html" class="current">Pension Advisory</a>
+        <a href="tech.html">Tech Consulting</a>
+      </div>
+      <div class="nav-right">
+        <a class="btn btn-primary" href="#trace">Start a Trace</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="pill"><span class="dot"></span> Pension Fund Advisory</div>
+      <h1 class="headline">Money with your name<br>on it. Still <span class="accent-text">waiting</span>.</h1>
+      <p class="lede">Billions in pension and provident fund benefits sit unclaimed across South Africa's retirement funds. Benyte finds the fund, confirms it's yours, and carries the claim through to payout.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary btn-lg" href="#trace">Start a Trace</a>
+        <a class="btn btn-outline btn-lg" href="#how">See how it works</a>
+      </div>
+    </div>
+    <div class="ledger-mini">
+      <div class="row"><span class="k">Fund Type</span><span class="v">Pension / Provident</span></div>
+      <div class="row"><span class="k">Status</span><span class="v">Unclaimed</span></div>
+      <div class="row"><span class="k">Last Employer</span><span class="v">████████████</span></div>
+      <div class="row"><span class="k">Member</span><span class="v">████ ████████</span></div>
+      <div class="row"><span class="k">Years Dormant</span><span class="v">████</span></div>
+      <div class="stamp">Unclaimed</div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="section-head" style="text-align:left; margin:0 0 12px;">
+      <span class="eyebrow-tag">The process</span>
+      <h2>Three steps, start to payout</h2>
+      <p>You bring what you remember. We bring the fund registries, the paperwork, and the follow-through.</p>
+    </div>
+    <div class="steps3">
+      <div class="step-card">
+        <div class="num">01 — TELL US</div>
+        <h4>Tell us your story</h4>
+        <p>Your name, your work history, whatever details you remember — even fragments. There's no minimum to start.</p>
+      </div>
+      <div class="step-card">
+        <div class="num">02 — WE TRACE</div>
+        <h4>We trace the fund</h4>
+        <p>We search fund administrators, the FSCA's unclaimed benefits registers, and old employer records under your name.</p>
+      </div>
+      <div class="step-card">
+        <div class="num">03 — WE CLAIM</div>
+        <h4>We handle the claim</h4>
+        <p>Once a fund is confirmed, we prepare and submit the claim and keep you updated until the money is paid out.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--surface);">
+  <div class="wrap pension-grid">
+    <div>
+      <span class="eyebrow-tag">Why Benyte</span>
+      <h2 style="font-size:clamp(24px,3vw,32px); font-weight:800;">Built for people who've lost track, not people who never had any</h2>
+      <p style="margin-top:16px; color:var(--muted-foreground); font-size:16px; max-width:52ch;">Funds go unclaimed for ordinary reasons: an employer that folded, a fund that merged, an address that changed. Benyte exists to close that gap between a member and money that was always theirs.</p>
+
+      <ul class="trust-list">
+        <li><span class="tick">→</span><span>No fee to start a trace — we're only paid once a fund is confirmed and you agree to proceed.</span></li>
+        <li><span class="tick">→</span><span>We deal directly with fund administrators and the relevant regulatory registers on your behalf.</span></li>
+        <li><span class="tick">→</span><span>Every claim is tracked with a reference number, from first trace to final payout.</span></li>
+        <li><span class="tick">→</span><span>You keep control — nothing is submitted to a fund without your sign-off.</span></li>
+      </ul>
+    </div>
+    <div class="ledger-card">
+      <div class="row"><span class="k">Fund Type</span><span class="v">Pension / Provident</span></div>
+      <div class="row"><span class="k">Trace Status</span><span class="v">In Progress</span></div>
+      <div class="row"><span class="k">Registry Checked</span><span class="v">FSCA, Fund Admins</span></div>
+      <div class="row"><span class="k">Fee to Start</span><span class="v">None</span></div>
+      <div class="stamp">Confirmed on payout</div>
+    </div>
+  </div>
+</section>
+
+<section id="trace">
+  <div class="wrap">
+    <div id="traceFormWrap">
+      <div class="pill"><span class="dot"></span> Start a trace</div>
+      <h2 style="font-size:clamp(26px,3.4vw,36px); font-weight:800; margin-bottom:14px;">Let's find out what's waiting for you.</h2>
+      <p class="lede" style="margin-bottom:36px;">Give us your name and whatever you remember about your work history. Don't worry about gaps — we fill those in.</p>
+
+      <form id="traceForm" class="trace-form">
+        <div class="field-row">
+          <div class="field">
+            <label for="firstName">Name</label>
+            <input type="text" id="firstName" name="firstName" required autocomplete="given-name">
+          </div>
+          <div class="field">
+            <label for="lastName">Surname</label>
+            <input type="text" id="lastName" name="lastName" required autocomplete="family-name">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="story">Your story</label>
+          <textarea id="story" name="story" required placeholder="Where did you work, and when? Do you remember the fund or employer name? Anything you recall, however small, helps us trace it."></textarea>
+          <small>Include past employers, approximate dates, and any fund or policy details you remember.</small>
+        </div>
+
+        <div class="form-foot">
+          <button type="submit" class="btn btn-primary btn-lg">Submit trace request</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="confirm" id="traceConfirm">
+      <div class="pill"><span class="dot"></span> Request received</div>
+      <h2 style="font-size:clamp(26px,3.4vw,36px); font-weight:800; margin-bottom:14px;">Thank you, <span id="confirmName"></span>.</h2>
+      <p class="lede" style="margin-bottom:8px;">Your trace request has been logged. A member of the Benyte team will review your story and get in touch about next steps.</p>
+      <div class="ledger-card">
+        <div class="row"><span class="k">Applicant</span><span class="v" id="confirmFull"></span></div>
+        <div class="row"><span class="k">Status</span><span class="v">Trace Requested</span></div>
+        <div class="row"><span class="k">Next Step</span><span class="v">Awaiting review</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <a class="brand" href="index.html">
+        <div class="mark">B</div>
+        <div class="name"><b>Benyte</b><span>Consulting</span></div>
+      </a>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="pension.html">Pension Advisory</a>
+        <a href="tech.html">Tech Consulting</a>
+      </div>
+      <div class="footer-contact">
+        <a href="mailto:hello@benyteconsulting.co.za">hello@benyteconsulting.co.za</a>
+        <a href="tel:+27123456789">+27 12 345 6789</a>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Benyte Consulting. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('traceForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    var first = document.getElementById('firstName').value.trim();
+    var last = document.getElementById('lastName').value.trim();
+    document.getElementById('confirmName').textContent = first;
+    document.getElementById('confirmFull').textContent = first + ' ' + last;
+    document.getElementById('traceFormWrap').style.display = 'none';
+    document.getElementById('traceConfirm').classList.add('active');
+  });
+</script>
+
+</body>
+</html>
